@@ -56,6 +56,18 @@ sudo systemctl reload apache2
 sudo vi 000-default.conf 
 ## add  ServerName sachinparmar.local        (domain name use)
 ##      ServerAlias www.sachinparmar.local
+...........................................................
+## we can use this like we have to change 
+
+<VirtualHost *:80>
+        ServerName sachinparmar.local
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/html
+        ErrorLog ${APACHE_LOG_DIR}/error.log
+        CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+.......................................................
+
 sudo systemctl restart apache2
 sudo apt updaye -y
 
