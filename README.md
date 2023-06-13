@@ -4,6 +4,7 @@ YouTube video link: https://youtu.be/8Uofkq718n8
 
 
 1. Install Apache server on Ubuntu
+
 sudo apt install apache2
 
 2. Install php runtime and php mysql connector
