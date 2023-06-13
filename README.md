@@ -60,8 +60,11 @@ sudo vi 000-default.conf
 ## we can use this like we have to change 
 
 <VirtualHost *:80>
+
         ServerName sachinparmar.local
+        
         ServerAdmin webmaster@localhost
+        
         DocumentRoot /var/www/html
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
