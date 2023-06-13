@@ -46,7 +46,7 @@ tar -xvf latest.tar.gz
 ls 
 11. Move wordpress folder to apache document root
 sudo mv wordpress/ /var/www/html
-ls
+ls 
 cd /var/www/html   (we will see wordpress)
 
 ## go to google and check ip_adress/wordpress and configure database 
