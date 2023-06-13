@@ -78,4 +78,5 @@ sudo apt install certbot python3-certbot-apache
 14. Request and install ssl on your site with certbot
 sudo certbot --apache
 
-
+----------------------------------------------------------------------
+## we can check also other link  https://www.linuxshelltips.com/install-wordpress-on-ubuntu/ 
