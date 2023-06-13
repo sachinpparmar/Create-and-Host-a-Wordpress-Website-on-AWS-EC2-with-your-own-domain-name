@@ -13,7 +13,7 @@ sudo apt install php libapache2-mod-php php-mysql
 
 3. Install MySQL server
 
-sudo apt install mysql-server 
+sudo apt install mysql-server
 
 4. Login to MySQL server
 
@@ -77,6 +77,7 @@ sudo vi 000-default.conf
         DocumentRoot /var/www/html
         ErrorLog ${APACHE_LOG_DIR}/error.log
         CustomLog ${APACHE_LOG_DIR}/access.log combined
+        
 </VirtualHost>
 .......................................................
 
